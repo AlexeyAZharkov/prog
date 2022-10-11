@@ -11,13 +11,13 @@ public class Revers {
 
         int numberRev = 0;
 
-        while (number > 9) {
+        while (number >= 1) {
             numberRev *= 10;
             numberRev += number % 10;
             number /= 10;
         }
-        numberRev *= 10;
-        numberRev += number;
+//        numberRev *= 10;
+//        numberRev += number;
 
         System.out.println(numberRev);
     }
